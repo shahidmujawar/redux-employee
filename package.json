@@ -1,20 +1,30 @@
 {
-  "name": "redux-employee",
+  "name": "redux-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.12.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "@types/graphql": "^14.5.0",
     "@types/jest": "^26.0.24",
     "@types/node": "^12.20.16",
     "@types/react": "^17.0.14",
     "@types/react-dom": "^17.0.9",
+    "country-state-city": "^3.0.1",
+    "formik-material-ui": "^3.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
     "react-scripts": "4.0.3",
+    "redux-thunk": "^2.3.0",
+    "type-graphql": "^1.1.1",
     "typescript": "^4.3.5",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "yup": "^0.32.9",
+    "yup-phone": "^1.2.19"
   },
   "scripts": {
     "start": "react-scripts start",
